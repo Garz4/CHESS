@@ -1,17 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>Chess</title>
-    <script src="javascript/gameEventsHandler.js"></script>
     <link rel="stylesheet" href="css/style.css">
   </head>
 
-  <body>
+  <body onload="setUp()">
     <center>
+    <p id="demo"></p>
     <h1>Chess</h1>
     <h4>The board game, but built in a web environment.</h4>
     <button class="startOnline">Play online</button><button class="startOffline">Play vs IA</button><br /><br />
     <canvas id="board" width="800" height="800" style="border:1px solid #000000;"></canvas>
     </center>
   </body>
+
+  <script src="javascript/gameEventsHandler.js" type="text/javascript"></script>
+  <script src="javascript/gameMain.js" type="text/javascript"></script>
 </html>
