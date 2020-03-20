@@ -15,7 +15,13 @@
     <h1>Chess</h1>
     <h4>The board game, but built in a web environment.</h4>
     <button class="startOnline" onclick="startOnline()">Play online</button><button class="startOffline" onclick="startOffline()">Play vs IA</button><br /><br />
-    <canvas id="board" width="800" height="800" onclick="onclickHandler(event)"></canvas>
+    <table>
+      <tr>
+        <td class="tdBoard" id="tdBoard">
+          <canvas id="board" width="800" height="800" onclick="onclickHandler(event)"></canvas>
+        </td>
+      </tr>
+    </table>
     </center>
   </body>
 
