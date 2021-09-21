@@ -1,0 +1,4 @@
+#!/
+
+def decide():
+    print()
