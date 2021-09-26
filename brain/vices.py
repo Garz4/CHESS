@@ -20,7 +20,7 @@ diligence = 0
 
 # We need a way to constantly update these values.
 # 
-# There is no 'pride' when 'humilty' is present,
+# There is no 'pride' when 'humility' is present,
 # there is no 'greed' when 'charity' is present,
 # and so on and so forth.
 # 
