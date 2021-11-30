@@ -39,3 +39,4 @@ diligence = 0
 # person should execute some other action in order for it to be fulfilled.
 def updateVices(action):
     print(action)
+
